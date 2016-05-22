@@ -4,15 +4,15 @@ Original Author: https://github.com/mhulsman
 Creating an environment
 -----------------------
 
-1. Download enhance: wget https://github.com/aminbys/enhance/archive/master.zip
+1. Download enhance: `wget https://github.com/aminbys/enhance/archive/master.zip`
 
-2. Create the directory in which you will place your enhance environment, e.g. mkdir env/enhance/
+2. Create the directory in which you will place your enhance environment, e.g. `mkdir env/enhance/`
 
-3. Unpack the "master.zip" file and copy the contents in a folder in your enhance directory: unzip ~/master.zip; mv enhance-master ~/env/package_manager
+3. Unpack the "master.zip" file and copy the contents in a folder in your enhance directory: `unzip ~/master.zip; mv enhance-master ~/env/package_manager`
 
-4. Move to enhance directory: cd env/enhance/
+4. Move to enhance directory: `cd env/enhance/`
 
-5. Execute: package_manager/enhance init generic
+5. Execute: `package_manager/enhance init generic`
 
 6. Your directory structure shoud now look like this:
 
