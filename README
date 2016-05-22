@@ -15,6 +15,15 @@ unzip ~/master.zip; mv enhance-master ~/env/package_manager
 
 5. Execute: package_manager/enhance init generic
 
+6. Your directory structure shoud now look like this:
+
+```bash
+-bash-4.1$ tree -d
+.
+├── env
+│   └── enhance
+│       ├── package_manager
+```
 
 Viewing available/installed packages
 ====================================
