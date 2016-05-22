@@ -2,15 +2,18 @@
 
 ENHANCE_DIR=ONAME
 CUR_DIR=`pwd`
+CUR_PS1=$PS1
 
 source $ENHANCE_DIR/paths
 
 SHELL=${SHELL}
 
-echo "Entering Enhance"
+echo 'Enhance is active.'
+# PS1='`hostname`:`pwd` \n\s-(Enh)\$ '
+PS1='\[\e[1;35;47m\]\h\[\e[m\] \[\e[1;32m\]\w\[\e[m\]\n\s-\[\e[1;31m\](Enh)\[\e[m\]\$ '
+export PS1
 
-$SHELL
+exec $SHELL
 
-echo "Leaving Enhance"
-
-
+PS1=$CUR_PS1
+echo "Left Enhance"
