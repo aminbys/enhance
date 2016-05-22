@@ -25,19 +25,21 @@ Creating an environment
 ```
 
 Viewing available/installed packages
-====================================
+------------------------------------
+Note that you should be in the enhance directory for this to work: `cd ~/env/enhance/`
 
 enhance list
 
 
+
 Installing packages
-===================
+--------
 
 enhance install <packagename>
 
 
 Starting environment
-====================
+-----------
 
 start_enhance
 
