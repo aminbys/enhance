@@ -9,6 +9,7 @@ class lapack(Package):
           ulimit -s 65000
           make blaslib
           make
+          make lapackelib
           """
 
     install="""
