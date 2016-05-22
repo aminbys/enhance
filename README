@@ -18,6 +18,10 @@ unzip ~/master.zip; mv enhance-master ~/env/package_manager
 6. Your directory structure shoud now look like this:
 
 ```bash
+lfc-ls -l /grid/lsgrid/<your_username>
+```
+
+```bash
 -bash-4.1$ tree -d
 .
 ├── env
