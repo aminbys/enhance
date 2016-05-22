@@ -1,5 +1,4 @@
 Enhance is an amazing package written by Mark Hulsman to manage packages in user's home directory in Linux.
-Original Author: https://github.com/mhulsman
 
 Creating an environment
 -----------------------
