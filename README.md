@@ -2,7 +2,7 @@ Enhance is an amazing package written by Mark Hulsman to manage packages in user
 Original Author: https://github.com/mhulsman
 
 Creating an environment
-=======================
+-----------------------
 
 1. Download enhance: wget https://github.com/aminbys/enhance/archive/master.zip
 
