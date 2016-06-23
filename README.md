@@ -10,7 +10,7 @@ Creating an environment
 3. Unpack the "master.zip" file and copy the contents in a folder in your enhance directory: 
 
 ```bash
-unzip ~/master.zip
+unzip ./master.zip
 mv enhance-master ~/env/enhance/package_manager
 ```
 
